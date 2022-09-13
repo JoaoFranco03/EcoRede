@@ -18,8 +18,9 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![MIT License][license-shield]][license-url]
+
 
 
 
@@ -34,8 +35,6 @@
 
   <p align="center">
     Find Nearby Recycling Bins!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/JoaoFranco03/EcoRede">View Demo</a>
@@ -77,34 +76,34 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This Project consists of an application that locates nearby recycling bins, helping people do recycling even in a place unknown to them
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This app was written in Swift, developer in Xcode 14, and makes use of Apple Maps, via MapKit allowing the use of maps and location to route the person to the nearest recycling bin.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Build and Runtime Requirements
+
+
+
+<!-- ABOUT THE PROJECT -->
+## Build and Runtime Requirements
 
 * Xcode 14.0 or later
 * iOS 16.0 or later
+* macOS 12.5 or later
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Built With
+
+## Built With
 
 * [![Swift][Swift.org]][Swift-url]
+* [![Xcode][xcode-shield]][xcode-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,6 +239,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[xcode-shield]: https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white
+[xcode-url]: https://developer.apple.com/xcode/
 [license-shield]: https://img.shields.io/github/license/JoaoFranco03/EcoRede.svg?style=for-the-badge
 [license-url]: https://github.com/JoaoFranco03/EcoRede/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
