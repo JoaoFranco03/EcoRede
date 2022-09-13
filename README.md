@@ -98,6 +98,12 @@ Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Build and Runtime Requirements
+
+* Xcode 14.0 or later
+* iOS 16.0 or later
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Built With
