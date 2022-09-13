@@ -78,7 +78,7 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
-[![Product Name Screen Shot][product-screenshot]
+[![Product Name Screen Shot][product-screenshot]](https://github.com/JoaoFranco03/EcoRede)
 
 This Project consists of an application that locates nearby recycling bins, helping people do recycling even in a place unknown to them.
 
