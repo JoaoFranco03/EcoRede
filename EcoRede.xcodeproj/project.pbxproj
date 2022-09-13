@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16DED94B28D0F33A00C232C6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DED94A28D0F33A00C232C6 /* MapViewModel.swift */; };
+		16F4944528D0E50F00334F05 /* EcoRedeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4944428D0E50F00334F05 /* EcoRedeApp.swift */; };
+		16F4944728D0E50F00334F05 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4944628D0E50F00334F05 /* MapView.swift */; };
+		16F4944928D0E51000334F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F4944828D0E51000334F05 /* Assets.xcassets */; };
+		16F4944C28D0E51000334F05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F4944B28D0E51000334F05 /* Preview Assets.xcassets */; };
+		16F4945628D0E51000334F05 /* EcoRedeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4945528D0E51000334F05 /* EcoRedeTests.swift */; };
+		16F4946028D0E51000334F05 /* EcoRedeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4945F28D0E51000334F05 /* EcoRedeUITests.swift */; };
+		16F4946228D0E51000334F05 /* EcoRedeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4946128D0E51000334F05 /* EcoRedeUITestsLaunchTests.swift */; };
+		16FEE6A128D1116900858D3E /* points.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 16FEE6A028D1116900858D3E /* points.geojson */; };
+		16FEE6A328D1128B00858D3E /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEE6A228D1128B00858D3E /* Points.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16F4945228D0E51000334F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16F4943928D0E50F00334F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F4944028D0E50F00334F05;
+			remoteInfo = EcoRede;
+		};
+		16F4945C28D0E51000334F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16F4943928D0E50F00334F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F4944028D0E50F00334F05;
+			remoteInfo = EcoRede;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16DED94A28D0F33A00C232C6 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		16F4944128D0E50F00334F05 /* EcoRede.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoRede.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F4944428D0E50F00334F05 /* EcoRedeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRedeApp.swift; sourceTree = "<group>"; };
+		16F4944628D0E50F00334F05 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		16F4944828D0E51000334F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16F4944B28D0E51000334F05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16F4945128D0E51000334F05 /* EcoRedeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoRedeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F4945528D0E51000334F05 /* EcoRedeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRedeTests.swift; sourceTree = "<group>"; };
+		16F4945B28D0E51000334F05 /* EcoRedeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoRedeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F4945F28D0E51000334F05 /* EcoRedeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRedeUITests.swift; sourceTree = "<group>"; };
+		16F4946128D0E51000334F05 /* EcoRedeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRedeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16F4946E28D0ED7B00334F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		16FEE6A028D1116900858D3E /* points.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = points.geojson; path = ../../../Downloads/points.geojson; sourceTree = "<group>"; };
+		16FEE6A228D1128B00858D3E /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F4943E28D0E50F00334F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F4944E28D0E51000334F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F4945828D0E51000334F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F4943828D0E50F00334F05 = {
+			isa = PBXGroup;
+			children = (
+				16F4944328D0E50F00334F05 /* EcoRede */,
+				16F4945428D0E51000334F05 /* EcoRedeTests */,
+				16F4945E28D0E51000334F05 /* EcoRedeUITests */,
+				16F4944228D0E50F00334F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16F4944228D0E50F00334F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F4944128D0E50F00334F05 /* EcoRede.app */,
+				16F4945128D0E51000334F05 /* EcoRedeTests.xctest */,
+				16F4945B28D0E51000334F05 /* EcoRedeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16F4944328D0E50F00334F05 /* EcoRede */ = {
+			isa = PBXGroup;
+			children = (
+				16F4946E28D0ED7B00334F05 /* Info.plist */,
+				16F4944428D0E50F00334F05 /* EcoRedeApp.swift */,
+				16F4944628D0E50F00334F05 /* MapView.swift */,
+				16F4944828D0E51000334F05 /* Assets.xcassets */,
+				16FEE6A028D1116900858D3E /* points.geojson */,
+				16F4944A28D0E51000334F05 /* Preview Content */,
+				16DED94A28D0F33A00C232C6 /* MapViewModel.swift */,
+				16FEE6A228D1128B00858D3E /* Points.swift */,
+			);
+			path = EcoRede;
+			sourceTree = "<group>";
+		};
+		16F4944A28D0E51000334F05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16F4944B28D0E51000334F05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16F4945428D0E51000334F05 /* EcoRedeTests */ = {
+			isa = PBXGroup;
+			children = (
+				16F4945528D0E51000334F05 /* EcoRedeTests.swift */,
+			);
+			path = EcoRedeTests;
+			sourceTree = "<group>";
+		};
+		16F4945E28D0E51000334F05 /* EcoRedeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16F4945F28D0E51000334F05 /* EcoRedeUITests.swift */,
+				16F4946128D0E51000334F05 /* EcoRedeUITestsLaunchTests.swift */,
+			);
+			path = EcoRedeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16F4944028D0E50F00334F05 /* EcoRede */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F4946528D0E51000334F05 /* Build configuration list for PBXNativeTarget "EcoRede" */;
+			buildPhases = (
+				16F4943D28D0E50F00334F05 /* Sources */,
+				16F4943E28D0E50F00334F05 /* Frameworks */,
+				16F4943F28D0E50F00334F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoRede;
+			productName = EcoRede;
+			productReference = 16F4944128D0E50F00334F05 /* EcoRede.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16F4945028D0E51000334F05 /* EcoRedeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F4946828D0E51000334F05 /* Build configuration list for PBXNativeTarget "EcoRedeTests" */;
+			buildPhases = (
+				16F4944D28D0E51000334F05 /* Sources */,
+				16F4944E28D0E51000334F05 /* Frameworks */,
+				16F4944F28D0E51000334F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F4945328D0E51000334F05 /* PBXTargetDependency */,
+			);
+			name = EcoRedeTests;
+			productName = EcoRedeTests;
+			productReference = 16F4945128D0E51000334F05 /* EcoRedeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16F4945A28D0E51000334F05 /* EcoRedeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F4946B28D0E51000334F05 /* Build configuration list for PBXNativeTarget "EcoRedeUITests" */;
+			buildPhases = (
+				16F4945728D0E51000334F05 /* Sources */,
+				16F4945828D0E51000334F05 /* Frameworks */,
+				16F4945928D0E51000334F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F4945D28D0E51000334F05 /* PBXTargetDependency */,
+			);
+			name = EcoRedeUITests;
+			productName = EcoRedeUITests;
+			productReference = 16F4945B28D0E51000334F05 /* EcoRedeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16F4943928D0E50F00334F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					16F4944028D0E50F00334F05 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					16F4945028D0E51000334F05 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 16F4944028D0E50F00334F05;
+					};
+					16F4945A28D0E51000334F05 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 16F4944028D0E50F00334F05;
+					};
+				};
+			};
+			buildConfigurationList = 16F4943C28D0E50F00334F05 /* Build configuration list for PBXProject "EcoRede" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16F4943828D0E50F00334F05;
+			productRefGroup = 16F4944228D0E50F00334F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16F4944028D0E50F00334F05 /* EcoRede */,
+				16F4945028D0E51000334F05 /* EcoRedeTests */,
+				16F4945A28D0E51000334F05 /* EcoRedeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16F4943F28D0E50F00334F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FEE6A128D1116900858D3E /* points.geojson in Resources */,
+				16F4944C28D0E51000334F05 /* Preview Assets.xcassets in Resources */,
+				16F4944928D0E51000334F05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F4944F28D0E51000334F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F4945928D0E51000334F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F4943D28D0E50F00334F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FEE6A328D1128B00858D3E /* Points.swift in Sources */,
+				16F4944728D0E50F00334F05 /* MapView.swift in Sources */,
+				16F4944528D0E50F00334F05 /* EcoRedeApp.swift in Sources */,
+				16DED94B28D0F33A00C232C6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F4944D28D0E51000334F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F4945628D0E51000334F05 /* EcoRedeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F4945728D0E51000334F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F4946228D0E51000334F05 /* EcoRedeUITestsLaunchTests.swift in Sources */,
+				16F4946028D0E51000334F05 /* EcoRedeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16F4945328D0E51000334F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F4944028D0E50F00334F05 /* EcoRede */;
+			targetProxy = 16F4945228D0E51000334F05 /* PBXContainerItemProxy */;
+		};
+		16F4945D28D0E51000334F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F4944028D0E50F00334F05 /* EcoRede */;
+			targetProxy = 16F4945C28D0E51000334F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16F4946328D0E51000334F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16F4946428D0E51000334F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16F4946628D0E51000334F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoRede/Preview Content\"";
+				DEVELOPMENT_TEAM = BFJTBBXTZ9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoRede/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location to show you nearby recycling points.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joaofranco.EcoRede;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16F4946728D0E51000334F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoRede/Preview Content\"";
+				DEVELOPMENT_TEAM = BFJTBBXTZ9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoRede/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location to show you nearby recycling points.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joaofranco.EcoRede;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16F4946928D0E51000334F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BFJTBBXTZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joaofranco.EcoRedeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoRede.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EcoRede";
+			};
+			name = Debug;
+		};
+		16F4946A28D0E51000334F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BFJTBBXTZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joaofranco.EcoRedeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoRede.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EcoRede";
+			};
+			name = Release;
+		};
+		16F4946C28D0E51000334F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BFJTBBXTZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joaofranco.EcoRedeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoRede;
+			};
+			name = Debug;
+		};
+		16F4946D28D0E51000334F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BFJTBBXTZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joaofranco.EcoRedeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoRede;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F4943C28D0E50F00334F05 /* Build configuration list for PBXProject "EcoRede" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F4946328D0E51000334F05 /* Debug */,
+				16F4946428D0E51000334F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F4946528D0E51000334F05 /* Build configuration list for PBXNativeTarget "EcoRede" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F4946628D0E51000334F05 /* Debug */,
+				16F4946728D0E51000334F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F4946828D0E51000334F05 /* Build configuration list for PBXNativeTarget "EcoRedeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F4946928D0E51000334F05 /* Debug */,
+				16F4946A28D0E51000334F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F4946B28D0E51000334F05 /* Build configuration list for PBXNativeTarget "EcoRedeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F4946C28D0E51000334F05 /* Debug */,
+				16F4946D28D0E51000334F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16F4943928D0E50F00334F05 /* Project object */;
+}
