@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16D3716D28D249F30081F9F8 /* points.json in Resources */ = {isa = PBXBuildFile; fileRef = 16D3716C28D249F30081F9F8 /* points.json */; };
 		16DED94B28D0F33A00C232C6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DED94A28D0F33A00C232C6 /* MapViewModel.swift */; };
 		16F4944528D0E50F00334F05 /* EcoRedeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4944428D0E50F00334F05 /* EcoRedeApp.swift */; };
 		16F4944728D0E50F00334F05 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4944628D0E50F00334F05 /* MapView.swift */; };
@@ -15,8 +16,6 @@
 		16F4945628D0E51000334F05 /* EcoRedeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4945528D0E51000334F05 /* EcoRedeTests.swift */; };
 		16F4946028D0E51000334F05 /* EcoRedeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4945F28D0E51000334F05 /* EcoRedeUITests.swift */; };
 		16F4946228D0E51000334F05 /* EcoRedeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4946128D0E51000334F05 /* EcoRedeUITestsLaunchTests.swift */; };
-		16FEE6A128D1116900858D3E /* points.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 16FEE6A028D1116900858D3E /* points.geojson */; };
-		16FEE6A328D1128B00858D3E /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEE6A228D1128B00858D3E /* Points.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16D3716C28D249F30081F9F8 /* points.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = points.json; path = ../../../Downloads/points.json; sourceTree = "<group>"; };
 		16DED94A28D0F33A00C232C6 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		16F4944128D0E50F00334F05 /* EcoRede.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoRede.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F4944428D0E50F00334F05 /* EcoRedeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRedeApp.swift; sourceTree = "<group>"; };
@@ -49,8 +49,6 @@
 		16F4945F28D0E51000334F05 /* EcoRedeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRedeUITests.swift; sourceTree = "<group>"; };
 		16F4946128D0E51000334F05 /* EcoRedeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRedeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		16F4946E28D0ED7B00334F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		16FEE6A028D1116900858D3E /* points.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = points.geojson; path = ../../../Downloads/points.geojson; sourceTree = "<group>"; };
-		16FEE6A228D1128B00858D3E /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +99,13 @@
 		16F4944328D0E50F00334F05 /* EcoRede */ = {
 			isa = PBXGroup;
 			children = (
+				16D3716C28D249F30081F9F8 /* points.json */,
 				16F4946E28D0ED7B00334F05 /* Info.plist */,
 				16F4944428D0E50F00334F05 /* EcoRedeApp.swift */,
 				16F4944628D0E50F00334F05 /* MapView.swift */,
 				16F4944828D0E51000334F05 /* Assets.xcassets */,
-				16FEE6A028D1116900858D3E /* points.geojson */,
 				16F4944A28D0E51000334F05 /* Preview Content */,
 				16DED94A28D0F33A00C232C6 /* MapViewModel.swift */,
-				16FEE6A228D1128B00858D3E /* Points.swift */,
 			);
 			path = EcoRede;
 			sourceTree = "<group>";
@@ -242,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FEE6A128D1116900858D3E /* points.geojson in Resources */,
 				16F4944C28D0E51000334F05 /* Preview Assets.xcassets in Resources */,
 				16F4944928D0E51000334F05 /* Assets.xcassets in Resources */,
+				16D3716D28D249F30081F9F8 /* points.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FEE6A328D1128B00858D3E /* Points.swift in Sources */,
 				16F4944728D0E50F00334F05 /* MapView.swift in Sources */,
 				16F4944528D0E50F00334F05 /* EcoRedeApp.swift in Sources */,
 				16DED94B28D0F33A00C232C6 /* MapViewModel.swift in Sources */,
