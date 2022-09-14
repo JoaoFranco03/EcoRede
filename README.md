@@ -31,7 +31,7 @@
     <img src="images/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">EcoRede</h3>
+  <h3 align="center">EcoRede - ⚠️ In Development</h3>
 
   <p align="center">
     Find Nearby Recycling Bins!
