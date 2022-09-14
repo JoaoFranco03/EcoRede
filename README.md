@@ -108,8 +108,8 @@ This app was written in Swift, developer in Xcode 14, and makes use of Apple Map
 
 ## Todo
 
-[X] Add Recycling Bin Map Markers
-[] Cluster Map Markers
+- [x] Add Recycling Bin Map Markers
+- [ ] Cluster Map Markers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
