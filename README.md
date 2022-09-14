@@ -89,7 +89,6 @@ This app was written in Swift, developer in Xcode 14, and makes use of Apple Map
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## Build and Runtime Requirements
 
 * Xcode 14.0 or later
@@ -104,6 +103,13 @@ This app was written in Swift, developer in Xcode 14, and makes use of Apple Map
 
 * [![Swift][Swift.org]][Swift-url]
 * [![Xcode][xcode-shield]][xcode-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Todo
+
+[X] Add Recycling Bin Map Markers
+[] Cluster Map Markers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
