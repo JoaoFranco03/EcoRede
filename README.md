@@ -82,7 +82,7 @@
 
 This Project consists of an application that locates nearby recycling bins, helping people do recycling even in a place unknown to them.
 
-This app was written in Swift, developer in Xcode 14, and makes use of Apple Maps, via MapKit allowing the use of maps and location to route the person to the nearest recycling bin.
+This app was written in Swift, developed in Xcode 14, and makes use of Apple Maps, via MapKit allowing the use of maps and location to route the person to the nearest recycling bin.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
