@@ -37,11 +37,6 @@
     Find Nearby Recycling Bins!
     <br />
     <br />
-    <a href="https://github.com/JoaoFranco03/EcoRede">View Demo</a>
-    ·
-    <a href="https://github.com/JoaoFranco03/EcoRede/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/JoaoFranco03/EcoRede/issues">Request Feature</a>
   </p>
 </div>
 
